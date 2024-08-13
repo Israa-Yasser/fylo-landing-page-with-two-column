@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+.header img {
+    width: 130px;
+    margin-left: 50px;
+}
+
+.list li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 60px;
+    margin-top: 13px;
+}
+
+.user {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.file {
+    width: 40%;
+    margin-top: 60px;
+}
+
+.image1 {
+    width: 40%;
+    height: 400px;
+    background-image: url(../images/illustration-1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.all {
+    font-size: 40px;
+}
+
+.fylo, .email, .get {
+    margin-top: 15px;
+}
+
+.fylo {
+    font-size: 20px;
+}
+
+.email {
+    width: 250px;
+    padding: 10px;
+}
+
+.get {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.get, .data button {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.parent {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(115, 147, 207, 0.116);
+    padding: 50px;
+}
+
+.info {
+    width: 40%;
+    height: 650px;
+}
+
+.stay, .never, .securely, .see {
+    margin-top: 30px;
+}
+
+.stay {
+    font-size: 30px;
+}
+
+.never, .securely, .see {
+    font-size: 20px;
+}
+
+.see {
+    display: inline-block;
+    color: rgb(0, 128, 111);
+    cursor: pointer;
+}
+
+.info hr {
+    width: 180px;
+
+}
+
+.person {
+    width: 400px;
+    padding: 35px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 40px;
+}
+
+.improved {
+    font-size: 15px;
+}
+
+.kyle {
+    display: flex;
+}
+
+.kyle img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.information {
+    margin: 35px 20px;
+}
+
+.image2 {
+    width: 45%;
+    height: 400px;
+    background-image: url(../images/illustration-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 90px;
+}
+
+.access {
+    width: 100%;
+    display: flex;
+    background-color: rgba(79, 4, 114, 0.466);
+    padding: 50px;
+}
+
+.getEarly, .data {
+    width: 40%;
+    height: 220px;
+    padding: 40px;
+    color: white;
+}
+
+.getEarly p {
+    margin-top: 20px;
+}
+
+.data {
+    margin-left: 100px;
+}
+
+.data input {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.data button {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.foot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 33, 160);
+    padding: 70px;
+}
+
+.logoImage {
+    filter: invert(1);
+}
+
+.phone, .iconEmail {
+    display: flex;
+    color: white;
+}
+
+.phone img, .iconEmail img {
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+}
+
+.phone p, .iconEmail p {
+    margin: 10px 10px;
+}
+
+.introList li {
+    color: white;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.introList li:hover {
+    color: rgba(0, 0, 255, 0.74);
+    cursor: pointer;
+}
+
+.icons img {
+    width: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    filter: invert(1);
+    margin-top: 15px;
+
+}
+
+@media screen and (max-width: 480px) {
+    .list li {
+        display: inline;
+    }
+
+    .user {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .parent, .access, .foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all, .fylo {
+        text-align: center;
+    }
+
+    .email, .get, .data input, .data button {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .stay, .see, .icons img {
+        margin: auto;
+    }
+
+}
