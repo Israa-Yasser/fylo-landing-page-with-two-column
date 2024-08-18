@@ -20,7 +20,7 @@
 .list li {
     list-style-type: none;
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 15px;
     margin-top: 13px;
 }
 
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
-    
+
 }
 
 .file {
@@ -80,7 +80,7 @@
 
 .parent {
     width: 100%;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .hero {
@@ -88,8 +88,8 @@
     height: 600px;
     display: flex;
     justify-content: space-around;
-    background-color:#F9F8FE;
-    
+    background-color: #F9F8FE;
+
 }
 
 .info {
@@ -128,10 +128,12 @@
     background-color: white;
     margin-top: 40px;
 }
-.quote{
+
+.quote {
     margin-top: 20px;
     margin-left: 30px;
 }
+
 .improved {
     font-size: 20px;
     margin-top: 10px;
@@ -168,8 +170,8 @@
     width: 100%;
     height: 280px;
     display: flex;
-    background-color:#575989;
-    
+    background-color: #575989;
+
 }
 
 .getEarly, .data {
@@ -178,9 +180,11 @@
     padding: 40px;
     color: white;
 }
-.getEarly h2{
+
+.getEarly h2 {
     margin-top: 3rem;
 }
+
 .getEarly p {
     font-size: 18px;
     margin-top: 20px;
@@ -206,11 +210,11 @@
 
 .foot {
     width: 100%;
-    height: 300px ;
+    height: 300px;
     display: flex;
     justify-content: space-between;
     background-color: #07043B;
-    
+
 }
 
 .logoImage {
@@ -221,7 +225,7 @@
 .phone, .iconEmail {
     display: flex;
     color: white;
-    margin-left:  30px;
+    margin-left: 30px;
 }
 
 .phone img, .iconEmail img {
@@ -233,9 +237,11 @@
 .phone p, .iconEmail p {
     margin: 10px 10px;
 }
+
 .introList {
     margin-top: 8.5rem;
 }
+
 .introList li {
     color: white;
     list-style-type: none;
@@ -246,9 +252,11 @@
     color: rgba(0, 0, 255, 0.74);
     cursor: pointer;
 }
-.icons{
+
+.icons {
     margin-right: 35px;
 }
+
 .icons img {
     width: 25px;
     margin-top: 8rem;
@@ -256,33 +264,107 @@
     cursor: pointer;
     filter: invert(1);
 }
-.icons img:hover{
-    background-color:fuchsia;
-}
-@media screen and (max-width: 480px) {
 
+.icons img:hover {
+    background-color: fuchsia;
+}
+
+@media (max-width: 767px) {
     .user {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .parent, .access, .foot {
+    .access, .foot {
         display: flex;
         flex-direction: column;
     }
 
-    .all, .fylo {
+    .image1, .file {
+        width: 100%;
+    }
+
+    .all {
         text-align: center;
-        font-size: 12px;
+        font-size: 33px;
+        margin-left: 4rem;
     }
 
-    .email, .get, .data input, .data button {
-        width: 250px;
+    .fylo {
+        text-align: center;
+        font-size: 18px;
+        margin-left: 6.5rem;
+    }
+
+    .email, .get {
+        width: 350px;
         padding: 10px;
+        margin-left: 6.5rem;
     }
 
-    .stay, .see, .icons img {
-        margin: auto;
+    .hero {
+        height: 1200px;
     }
 
+    .image2 {
+        width: 100%;
+        position: absolute;
+    }
+
+    .info {
+        width: 100%;
+    }
+
+    .stay {
+        font-size: 25px;
+        margin-top: 35rem;
+        margin-left: 3.5rem;
+    }
+
+    .never, .securely {
+        font-size: 23px;
+        margin-left: 15px;
+    }
+
+    .see ,.info hr {
+        margin-left: 10rem;
+    }
+
+    .person {
+        margin-left: 3rem;
+    }
+
+    .access {
+        width: 100%;
+        height: 500px;
+    }
+.getEarly{
+    width: 100%;
+}
+    .getEarly h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .getEarly p {
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .data input, .data button {
+        width: 300px;
+        padding: 15px;
+        
+    }
+
+    .foot {
+        height: 950px;
+    }
+    .introList{
+        margin-left: 3rem;
+    }
+    .icons{
+        margin-left: 10rem;
+        margin-bottom: 3rem;
+    }
 }
