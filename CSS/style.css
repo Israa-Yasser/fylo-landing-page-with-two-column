@@ -1,370 +1,378 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
 }
 
 .header img {
-    width: 130px;
-    margin-left: 15px;
+  width: 130px;
 }
 
 .list li {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 15px;
-    margin-top: 13px;
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 13px;
 }
 
 .user {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
-
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
 }
 
 .file {
-    width: 45%;
-    margin-top: 60px;
+  width: 45%;
+  margin-top: 60px;
 }
 
 .image1 {
-    width: 40%;
-    height: 400px;
-    background-image: url(../images/illustration-1.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 40%;
+  height: 400px;
+  background-image: url(../images/illustration-1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .all {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.fylo, .email, .get {
-    margin-top: 15px;
+.fylo,
+.email,
+.get {
+  margin-top: 15px;
 }
 
 .fylo {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .email {
-    width: 330px;
-    padding: 10px;
+  width: 330px;
+  padding: 10px;
 }
 
 .get {
-    width: 180px;
-    margin-left: 10px;
+  width: 180px;
 }
 
-.get, .data button {
-    width: 200px;
-    padding: 10px;
-    background-color: blue;
-    color: white;
-    font-size: 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.get,
+.data button {
+  width: 200px;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .parent {
-    width: 100%;
-    margin-top: 90px;
+  width: 100%;
+  margin-top: 90px;
 }
 
 .hero {
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #F9F8FE;
-
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9f8fe;
 }
 
 .info {
-    width: 40%;
-    height: 650px;
+  width: 40%;
+  height: 650px;
 }
 
-.stay, .never, .securely, .see {
-    margin-top: 30px;
+.stay,
+.never,
+.securely,
+.see {
+  margin-top: 30px;
 }
 
 .stay {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-.never, .securely, .see {
-    font-size: 17px;
+.never,
+.securely,
+.see {
+  font-size: 17px;
 }
 
 .see {
-    display: inline-block;
-    color: rgb(0, 128, 111);
-    cursor: pointer;
+  display: inline-block;
+  color: rgb(0, 128, 111);
+  cursor: pointer;
 }
 
 .info hr {
-    width: 180px;
-
+  width: 180px;
 }
 
 .person {
-    width: 400px;
-    height: 230px;
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: white;
-    margin-top: 40px;
+  width: 400px;
+  height: 230px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 40px;
 }
 
 .quote {
-    margin-top: 20px;
-    margin-left: 30px;
+  margin-top: 20px;
 }
 
 .improved {
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 30px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .kyle {
-    display: flex;
-    margin-left: 30px;
-
+  display: flex;
 }
 
 .kyle img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
 .information {
-    margin: 25px 20px;
+  margin: 25px 20px;
 }
 
 .image2 {
-    width: 45%;
-    height: 400px;
-    background-image: url(../images/illustration-2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 90px;
+  width: 45%;
+  height: 400px;
+  background-image: url(../images/illustration-2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
 }
 
 .access {
-    width: 100%;
-    height: 280px;
-    display: flex;
-    background-color: #575989;
-
+  width: 100%;
+  height: 280px;
+  display: flex;
+  background-color: #575989;
 }
 
-.getEarly, .data {
-    width: 40%;
-    height: 220px;
-    padding: 40px;
-    color: white;
+.getEarly,
+.data {
+  width: 40%;
+  height: 220px;
+  padding: 40px;
+  color: white;
 }
 
 .getEarly h2 {
-    margin-top: 3rem;
+  margin-top: 3rem;
 }
 
 .getEarly p {
-    font-size: 18px;
-    margin-top: 20px;
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .data {
-    margin-top: 3rem;
-    margin-left: 100px;
+  margin-top: 3rem;
 }
 
 .data input {
-    display: block;
-    width: 350px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+  display: block;
+  width: 350px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
 .data button {
-    width: 200px;
-    margin-top: 20px;
+  width: 200px;
+  margin-top: 20px;
 }
 
-.foot {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #07043B;
-
+/* footer not foot */
+.footer {
+  width: 100%;
+  background-color: #07043b;
+  padding-block: 5rem;
 }
 
-.logoImage {
-    filter: invert(1);
-    margin: 40px 30px;
+.footer-wrapper {
+  max-width: 1400px;
+  margin-inline: auto;
 }
 
-.phone, .iconEmail {
-    display: flex;
-    color: white;
-    margin-left: 30px;
+.footer-logo {
+  width: 130px;
+  margin-bottom: 2rem;
 }
 
-.phone img, .iconEmail img {
-    width: 15px;
-    height: 15px;
-    margin-top: 15px;
+.footer-logo img {
+  width: 100%;
+  object-fit: contain;
 }
 
-.phone p, .iconEmail p {
-    margin: 10px 10px;
+.footer-details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
-.introList {
-    margin-top: 8.5rem;
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
 }
 
-.introList li {
-    color: white;
-    list-style-type: none;
-    margin-top: 15px;
+.phoneIcon,
+.emailIcon {
+  display: flex;
+  gap: 0.5rem;
+  color: white;
 }
 
-.introList li:hover {
-    color: rgba(0, 0, 255, 0.74);
-    cursor: pointer;
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1;
+}
+
+.footer-links li {
+  color: white;
+  list-style-type: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-links li:hover {
+  text-decoration: underline;
 }
 
 .icons {
-    margin-right: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  gap: 1rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.5rem;
 }
 
 .icons img {
-    width: 25px;
-    margin-top: 8rem;
-    margin-right: 15px;
-    cursor: pointer;
-    filter: invert(1);
-}
-
-.icons img:hover {
-    background-color: fuchsia;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  filter: invert(1);
 }
 
 @media (max-width: 767px) {
-    .user {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+  .header {
+    padding: 20px;
+  }
+  .user {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
-    .access, .foot {
-        display: flex;
-        flex-direction: column;
-    }
+  .access {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .image1, .file {
-        width: 100%;
-    }
-
-    .all {
-        text-align: center;
-        font-size: 33px;
-        margin-left: 4rem;
-    }
-
-    .fylo {
-        text-align: center;
-        font-size: 18px;
-        margin-left: 6.5rem;
-    }
-
-    .email, .get {
-        width: 350px;
-        padding: 10px;
-        margin-left: 6.5rem;
-    }
-
-    .hero {
-        height: 1200px;
-    }
-
-    .image2 {
-        width: 100%;
-        position: absolute;
-    }
-
-    .info {
-        width: 100%;
-    }
-
-    .stay {
-        font-size: 25px;
-        margin-top: 35rem;
-        margin-left: 3.5rem;
-    }
-
-    .never, .securely {
-        font-size: 23px;
-        margin-left: 15px;
-    }
-
-    .see ,.info hr {
-        margin-left: 10rem;
-    }
-
-    .person {
-        margin-left: 3rem;
-    }
-
-    .access {
-        width: 100%;
-        height: 500px;
-    }
-.getEarly{
+  .image1,
+  .file {
     width: 100%;
-}
-    .getEarly h2 {
-        font-size: 25px;
-        text-align: center;
-    }
+  }
 
-    .getEarly p {
-        font-size: 23px;
-        text-align: center;
-    }
+  .all {
+    text-align: center;
+    font-size: 33px;
+  }
 
-    .data input, .data button {
-        width: 300px;
-        padding: 15px;
-        
-    }
+  .fylo {
+    text-align: center;
+    font-size: 18px;
+  }
 
-    .foot {
-        height: 950px;
-    }
-    .introList{
-        margin-left: 3rem;
-    }
-    .icons{
-        margin-left: 10rem;
-        margin-bottom: 3rem;
-    }
+  .email,
+  .get {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .image2 {
+    width: 100%;
+    position: absolute;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .stay {
+    font-size: 25px;
+    margin-top: 35rem;
+  }
+
+  .never,
+  .securely {
+    font-size: 23px;
+  }
+
+  .see,
+  .info hr {
+  }
+
+  .person {
+  }
+
+  .access {
+    width: 100%;
+    height: 500px;
+  }
+  .getEarly {
+    width: 100%;
+  }
+  .getEarly h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .getEarly p {
+    font-size: 23px;
+    text-align: center;
+  }
+
+  .data input,
+  .data button {
+    width: 300px;
+    padding: 15px;
+  }
 }
